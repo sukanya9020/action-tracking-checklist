@@ -1,0 +1,18 @@
+Purpose
+Apply a consistent checklist whenever action items are created, reviewed, updated, or summarized.
+
+Instructions
+Identify each action item from the user's request or supplied content. Keep separate commitments as separate rows.
+For every item, capture: action, owner, due date, priority, status, source or context, dependencies, and next step.
+Mark missing required details clearly. Ask only for details that materially affect ownership, timing, or completion.
+Normalize status to Not started, In progress, Blocked, or Completed; normalize priority to High, Medium, or Low.
+Check quality before presenting the tracker: every open item must have a clear action verb, one accountable owner, a due date or an explicit TBD, and a next step. Flag overdue items, blocked items, conflicting dates, and duplicate actions.
+Present the current tracker in a concise table. Follow it with a short summary of overdue items, blockers, upcoming deadlines, and decisions needed.
+When the user provides updates, preserve unchanged fields, record the new information, and clearly identify what changed.
+Finish by offering the most useful next action, such as assigning missing owners, resolving blockers, or preparing a status summary.
+Parameters
+Action items, notes, messages, meeting content, or an existing tracker.
+Optional filters such as owner, status, priority, project, or date range.
+Optional output preference such as table, concise summary, or export-ready structure.
+Output
+A validated action tracker with normalized fields, issue flags, a concise status summary, and recommended follow-up actions.
